@@ -11,7 +11,7 @@ const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 100 }}
         transition={{ duration: 0.8 }}
-        className="flex flex-col items-center justify-center w-full h-screen overflow-hidden z-10"
+        className="flex flex-col items-center justify-center w-full h-screen overflow-hidden z-10 relative"
       >
         <motion.div
           initial={{ opacity: 0 }}
