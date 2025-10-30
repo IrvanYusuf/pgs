@@ -38,7 +38,7 @@ const HeroSection = () => {
         >
           <h1 className="font-bold text-white">Where Brands Meets Growth</h1>
         </motion.div>
-        <div className="absolute -bottom-px left-0 w-full h-1/5 md:h-1/3 z-10 bg-linear-to-b from-transparent to-white" />
+        {/* <div className="absolute -bottom-px left-0 w-full h-1/5 md:h-1/3 z-10 bg-linear-to-b from-transparent to-white" /> */}
       </motion.div>
     </MotionLayout>
   );
