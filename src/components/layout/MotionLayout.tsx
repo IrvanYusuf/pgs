@@ -9,7 +9,7 @@ export default function MotionLayout({
 }) {
   const pathname = usePathname();
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence>
       <motion.div
         key={pathname}
         initial={{ opacity: 0 }}
