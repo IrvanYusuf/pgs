@@ -18,7 +18,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, scale: 1.1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut", delay: 1 }}
-          className="w-full h-screen relative overflow-hidden"
+          className="w-full h-full relative overflow-hidden"
         >
           <Image
             src="/images/home.webp"
